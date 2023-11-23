@@ -1,0 +1,33 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #152850;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.logout-button {
+  height: 40px;
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid #c3cad9;
+  color: #c3cad9;
+  cursor: pointer;
+}
+.card-container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 70px;
+  color: #ffffff;
+}

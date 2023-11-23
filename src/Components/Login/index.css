@@ -1,0 +1,71 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #152850;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  background-color: #e0eefe;
+  border-radius: 30px;
+  height: 60vh;
+  width: 60vw;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 55%;
+}
+.logo {
+  width: 500px;
+  align-items: center;
+}
+.right-container {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 20px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #183b56;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: 'Roboto';
+  color: #5a7184;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.input {
+  border: 1px solid #c3cad9;
+  margin-bottom: 20px;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+}
+.login-button {
+  background-color: #1565d8;
+  color: #ffffff;
+  font-family: 'Roboto';
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.error {
+  font-family: 'Roboto';
+  color: #ff0b37;
+  text-align: center;
+}
